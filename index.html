@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>rgxg - ReGular eXpression Generator</title>
+    </head>
+    <body>
+        <h1>rgxg</h1>
+        <div>
+            rgxg (ReGular eXpression Generator) is a C library and a
+            command-line tool that generate (extended) regular expressions.
+        </div>
+
+        <h2>What does it do?</h2>
+        <div>
+            rgxg can be useful for generating expressions that match, for
+            example, a specific number range (e.g. 0 to 31 or 00 to FF) or all
+            addresses in a CIDR block (e.g. 192.168.0.0/24 or
+            2001:db8:aaaa::/64).
+            <p><img src="rgxg_cmd-line.png" alt="rgxg command-line tool examples" /></p>
+        </div>
+
+        <h2>Get rgxg</h2>
+        <div>
+            <table>
+                <tr>
+                    <td><strong>stable</strong> release</td>
+                    <td><a href="https://github.com/rgxg/rgxg/releases/download/v0.1/rgxg-0.1.tar.gz">rgxg-0.1.tar.gz</a></td>
+                </tr>
+                <tr>
+                    <td>GPG signature</td>
+                    <td><a href="https://github.com/rgxg/rgxg/releases/download/v0.1/rgxg-0.1.tar.gz.asc">rgxg-0.1.tar.gz.asc</a></td>
+                </tr>
+                <tr>
+                    <td>release date</td>
+                    <td>14 Apr 2013</td>
+                </tr>
+            </table>
+        </div>
+        <h3>Downstreams</h3>
+        <div>
+            rgxg is included in the following distributions. Please use the corresponding command to install rgxg.
+            <ul>
+                <li><a href="http://packages.qa.debian.org/r/rgxg.html">Debian GNU/Linux</a> | <a href="https://launchpad.net/ubuntu/+source/rgxg">Ubuntu</a>: <code>apt-get install rgxg</code> or <code>aptitude install rgxg</code></li>
+            </ul>
+            <!-- <small>See also the output of <code>whohas rgxg</code>.</small> -->
+            <p>Please open an issue at the <a href="https://github.com/rgxg/rgxg.github.io/issues">rgxg.github.io repository</a> on GitHub if rgxg is included in your distribution but not listed above.</p>
+        </div>
+        <h3>Source</h3>
+        <div>
+            Both the <a href="https://github.com/rgxg/rgxg/releases">tarball releases</a> and the <a href="https://github.com/rgxg/rgxg/tags">tags</a> of the git repository are signed by the PGP key of <em>Hannes von Haugwitz</em>.<br />
+            <p>The current public key is:</p>
+
+<pre>pub   4096R/68E7B931 2011-06-28 [expires: 2021-06-27]
+      Key fingerprint = 2BBB D30F AAB2 9B32 53BC  FBA6 F694 7DAB 68E7 B931
+uid                  Hannes von Haugwitz &lt;hannes@vonhaugwitz.com&gt;
+</pre>
+            The key can be downloaded from one of the well known PGP key servers.<br />
+            Please <strong>always</strong> verify the signature of a release before using it (see below).<br />
+        </div>
+        <h4>Source tarballs</h4>
+        <div>
+            The source code of the current version can be downloaded <a href="https://github.com/rgxg/rgxg/releases">here</a>.<br />
+            Use the following command to verify the signature of the downloaded source tarball (see <a href="https://github.com/rgxg/rgxg/blob/master/README">README</a> file for details):<br />
+            <code>gpg --verify rgxg-&lt;VERSION_NUMBER&gt;.tar.gz.asc</code>
+        </div>
+        <h4>GIT</h4>
+        <div>
+            The rgxg git repository is hosted on <a href="https://github.com/rgxg/rgxg">GitHub</a>.<br />
+            Use the following command to verify the signature of a git tag (see <a href="https://github.com/rgxg/rgxg/blob/master/README">README</a> file for details):<br />
+            <code>git verify-tag v&lt;VERSION_NUMBER&gt;</code>
+        </div>
+        <h2>License</h2>
+        <div>rgxg is licensed under zlib/libpng License.</div>
+        <h3>Bug reports / feature requests</h3>
+        <div>
+            Before reporting, please make sure that the bug still exists in the current GIT version of rgxg.<br />
+            Please report bugs and feature requests to the <a href="https://github.com/rgxg/rgxg/issues">rgxg issue tracker</a> on GitHub.
+            </div>
+        <h2>Who's behind rgxg?</h2>
+        <div>
+            rgxg is written and maintained by <strong>Hannes von Haugwitz</strong>.
+            For the mail address please see the <a href="https://github.com/rgxg/rgxg/blob/master/AUTHORS">AUTHORS</a> file.
+        </div>
+        <p>
+        Last Update: 16 Jul 2016<br />
+        </p>
+    </body>
+</html>
